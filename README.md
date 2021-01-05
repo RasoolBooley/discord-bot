@@ -2,10 +2,10 @@
 A discord bot named after the Apex Legends Character pathfinder for my personal discord server
 
 ## Prerequisites
--- Any text editor
--- Node
--- Discord account
--- Discord server (Owned or managed by you)
+- Any text editor
+- Node
+- Discord account
+- Discord server (Owned or managed by you)
 
 ## How to Get started
 
