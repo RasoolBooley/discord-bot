@@ -12,3 +12,7 @@ once you have all the dependancies you need to go to https://discord.com/develop
 from there you can add the bot to your server, give it a name, and upload a profile picture for it.
 
 Create a .env file to store your keys and you should be good to go!
+
+### The official docs if you need some more guidance
+
+https://discordjs.guide/
