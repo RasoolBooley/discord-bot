@@ -1,0 +1,28 @@
+{
+  "name": "pathfinder-bot",
+  "version": "1.0.0",
+  "description": "A discord bot named after the Apex Legends Character Pathfinder for my personal discord server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RasoolBooley/discord-bot.git"
+  },
+  "keywords": [
+    "Pathfinder",
+    "Bot",
+    "Discord"
+  ],
+  "author": "Rasool Booley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RasoolBooley/discord-bot/issues"
+  },
+  "homepage": "https://github.com/RasoolBooley/discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
