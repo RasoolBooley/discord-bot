@@ -1,7 +1,7 @@
 # discord-bot
 A discord bot named after the Apex Legends Character pathfinder for my personal discord server
 
-##How to Get started
+## How to Get started
 
 You'll need to run 
 - npm install
