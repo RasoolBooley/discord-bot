@@ -4,8 +4,8 @@ module.exports = {
 
     execute(message, args){
         message.reply(`Here's what I could find
-        ${message.author.username}         
-        ${message.author.tag}
-        ${message.author.id} `)
+        Your Username: ${message.author.username}         
+        Your Discord Tag: ${message.author.tag}
+        Your ID: ${message.author.id} `)
     }
 }

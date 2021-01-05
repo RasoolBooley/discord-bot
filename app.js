@@ -22,24 +22,15 @@ client.on("message", message =>{
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
     const args = message.content.slice(prefix.length).trim().split(' ');
-    const command = args.shift().toLowerCase();
+    const commandName = args.shift().toLowerCase();
 
-
-    // send back a response when the specific command has been written
-    if(command === 'hello'){
-        client.commands.get('hello').execute(message, args);
-    } 
-
-    else if(command.startsWith(`answer`)){
-        client.commands.get('8ball').execute(message, args);
-    }
-
-    else if(command === `aboutme`){
-        client.commands.get('about').execute(message, args);
-    }
-
-    else if(command === `fight`){
-        client.commands.get('fight').execute(message, args);
+    if (!client.commands.has(commandName)) return;
+        const command = client.commands.get(commandName);
+    try {
+        command.execute(message, args);
+    } catch (error) {
+        console.error(error);
+        message.reply('there was an error trying to execute that command!');
     }
 });
 
