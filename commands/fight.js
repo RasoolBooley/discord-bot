@@ -1,6 +1,6 @@
 module.exports = {
     name: "fight",
-    description: `Input lets the user "fight" the bot (basically flips a coin and chooses and winner)`,
+    description: `Input lets the user "fight" the bot`,
 
     execute(message, args){
         let odds = Math.random();
